@@ -1,0 +1,21 @@
+# 忽略数据集
+*.h5
+*.npy
+datasets/
+failure/
+# 忽略所有模型权重 (GitHub 传不上去)
+*.pth
+checkpoints/
+checkpoints_*/
+backup_rank1_success/*.pth  # 备份里的代码要传，但模型不要传到GitHub
+
+# 忽略结果日志 (可选，如果你想保留Log可以删掉这行)
+results/
+results_*/
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略系统文件
+.DS_Store
