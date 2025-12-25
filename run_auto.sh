@@ -25,7 +25,7 @@ mkdir -p ${CKP_DIR} ${RESULT_PATH}
 # 方案 B: 旧服务器 (NiCE-DES) 推荐配置
 # 理由: 之前跑出了 Rank 49，5e-5 是这里的极限
 # 如果在旧服务器跑，请取消下面这行的注释，并注释掉上面那行
-LEARNING_RATE=5e-5
+LEARNING_RATE=5e-6
 
 echo "=========================================================="
 echo "🚀 Starting AUTO-PILOT Training"
