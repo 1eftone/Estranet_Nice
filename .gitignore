@@ -9,6 +9,11 @@ checkpoints/
 checkpoints_*/
 backup_rank1_success/*.pth  # 备份里的代码要传，但模型不要传到GitHub
 
+pure_scoop_mirror/
+
+best_results/
+bad_models/
+version_sniper/
 # 忽略结果日志 (可选，如果你想保留Log可以删掉这行)
 results/
 results_*/

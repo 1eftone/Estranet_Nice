@@ -8,12 +8,12 @@ from evaluate import evaluate_in_memory
 
 # --- 配置区 ---
 # 确保这个路径是对的
-MODEL_PATH = "/home/joey1/Documents/joey/projects/Estranet_pytorch/checkpoints_ascadv2/estranet_epoch_1.pth"
+MODEL_PATH = "/home/joey1/Documents/joey/projects/Estranet_pytorch/checkpoints_hunter_adam/estranet_best_rank.pth"
 DATA_PATH = "/home/joey1/Documents/joey/Data/ASCAD/ascadv2-extracted.h5"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 # 测试节点：从 1000 到 10000，每隔 1000 测一次
-TRACE_STEPS = list(range(1000, 11000, 1000)) 
+TRACE_STEPS = list(range(500, 10500, 500)) 
 
 def main():
     print(f"Loading Model from: {MODEL_PATH}")
